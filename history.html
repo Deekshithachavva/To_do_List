@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task History</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', sans-serif;
+      font-size: 15px;
+      padding: 20px;
+      background: #63ee65;
+    }
+    h2 {
+      text-align: center;
+    }
+    h3 {
+      margin-top: 20px;
+      color: #050505;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+
+    }
+    #dateFilter {
+    padding: 8px;
+    font-family: 'Times New Roman', Times,serif;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: #0721a4;
+    color: #f6f4f4;
+    border: 1px solid #bed355;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  </style>
+</head>
+<body>
+  <h2>📅 Task History</h2>
+  <select id="dateFilter" style="margin-bottom: 20px;"></select>
+  <div id="historyList"></div>
+
+  <script src="history.js"></script>
+</body>
+</html>
